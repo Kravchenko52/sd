@@ -1,0 +1,57 @@
+header{
+    background-color: black;
+
+}
+header .wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+.contacts{
+    text-align: center;
+
+}
+.nav-intems{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: wheat;
+    width: fit-content;
+    text-align: center;
+
+}
+.burger span{
+
+    background-color: black;
+    width: 50px;
+    height: 5 px;
+
+}
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+
+}
+@media (max-with) {
+    
+}
