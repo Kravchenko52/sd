@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="cart-btn">
+            <a href="cart.html">
+            Кошик :
+            <span class="cart-count">0</span>
+            </a>
+
+            </div>
+    </header>
+    <div class="conteiner">
+        <H2>товари</H2>
+        <div class="cotolog">
+            <div class="Tovar">
+                <img src="" alt="">
+                <H3>Купити</H3>
+                <p>Опіс</p>
+                <p>10€</p>
+                <button class="CartProdMore" onclick="addToCart(1,'title',10,'src/image.png)" ></button>
+                <main>
+                    <h1>Ваш кошик</h1>
+                    <a href="index.html">Назад</a>
+                    <div class="cart-items"></div>
+                    <h2 class="total"></h2>
+                    <button onabort="openCheckOut()"></button>
+
+                </main>
+                <script src="js/cart-page.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

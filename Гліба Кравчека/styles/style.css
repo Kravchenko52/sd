@@ -1,0 +1,17 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+}
+body{
+    font: 1em sans serif;
+    background-color: #ffebcd;
+    color: #460202;
+
+
+}
+.wraper{
+    margin: 0 75px;
+
+}
